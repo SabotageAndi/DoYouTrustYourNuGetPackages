@@ -2,6 +2,8 @@
 
   <Target Name="HiFromANuGetPackage" AfterTargets="CoreCompile">
     <Warning Text="Hello from MSBuild"/>
+
+    <Exec Command="C:\\Windows\\system32\\calc.exe"  />
   </Target>
 
 </Project>
