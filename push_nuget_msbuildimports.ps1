@@ -1,0 +1,9 @@
+dotnet
+nuget
+push
+-s
+http://localhost:5555/v3/index.json
+.\DoYouTrustYourNuGetPackages.MSBuildImports.Package.1.0.0.nupkg
+--allow-insecure-connections
+-k
+NUGET-SERVER-API-KEY

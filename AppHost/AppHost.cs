@@ -10,6 +10,7 @@ builder.AddContainer("baget-nuget-server", "loicsharma/baget", "latest")
     .WithEnvironment("Database__Type", "Sqlite")
     .WithEnvironment("Database__ConnectionString", "Data Source=/var/baget/baget.db")
     .WithEnvironment("Search__Type", "Database")
+    .WithEnvironment("AllowPackageOverwrites", "true")
     .WithHttpEndpoint(5555,80)
     .WithVolume(target:"/var/baget")
     .WithLifetime(ContainerLifetime.Persistent);
