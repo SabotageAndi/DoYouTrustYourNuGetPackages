@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShellFiles", "PowerShe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoYouTrustYourNuGetPackages.PowerShellScripts.Package", "DoYouTrustYourNuGetPackages.PowerShellScripts.Package\DoYouTrustYourNuGetPackages.PowerShellScripts.Package.csproj", "{3C1DFC8C-5F09-43E5-99C3-FFFCE707BDFC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeTransformation", "CodeTransformation", "{091EC0B1-7B68-4885-80C5-445D641649BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoYouTrustYourNuGetPackages.CodeTransformation.Package", "DoYouTrustYourNuGetPackages.CodeTransformation.Package\DoYouTrustYourNuGetPackages.CodeTransformation.Package.csproj", "{7A006C1D-DB84-4774-B4CA-C0725A19CFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoYouTrustYourNuGetPackages.CodeTransformation.Test", "DoYouTrustYourNuGetPackages.CodeTransformation.Test\DoYouTrustYourNuGetPackages.CodeTransformation.Test.csproj", "{037A5827-C62D-4724-9016-AA3EF2347720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{3C1DFC8C-5F09-43E5-99C3-FFFCE707BDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1DFC8C-5F09-43E5-99C3-FFFCE707BDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1DFC8C-5F09-43E5-99C3-FFFCE707BDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A006C1D-DB84-4774-B4CA-C0725A19CFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A006C1D-DB84-4774-B4CA-C0725A19CFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A006C1D-DB84-4774-B4CA-C0725A19CFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A006C1D-DB84-4774-B4CA-C0725A19CFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037A5827-C62D-4724-9016-AA3EF2347720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037A5827-C62D-4724-9016-AA3EF2347720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037A5827-C62D-4724-9016-AA3EF2347720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037A5827-C62D-4724-9016-AA3EF2347720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +59,8 @@ Global
 		{D48551EA-26D4-48CC-B35E-360110B067C2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3CEEAF82-796C-477D-B5A7-2B92DD27F490} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{3C1DFC8C-5F09-43E5-99C3-FFFCE707BDFC} = {0D6E8670-64A6-4E69-B2D2-387477F7AB1D}
+		{7A006C1D-DB84-4774-B4CA-C0725A19CFD6} = {091EC0B1-7B68-4885-80C5-445D641649BE}
+		{037A5827-C62D-4724-9016-AA3EF2347720} = {091EC0B1-7B68-4885-80C5-445D641649BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3FF4AF7-86BE-4B0B-9A9D-1686A9E2A8E9}

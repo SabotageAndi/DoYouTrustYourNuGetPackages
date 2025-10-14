@@ -4,10 +4,12 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<PackageReference Include="DoYouTrustYourNuGetPackages.MSBuildImports.Package" Version="1.0.0" />-->
+    <PackageReference Include="DoYouTrustYourNuGetPackages.CodeTransformation.Package" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
