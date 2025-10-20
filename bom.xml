@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:8f764949-abe9-42c8-8ec7-7be705a411a3" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:73f3803b-ee54-4abb-ac9c-756c38c6a8f4" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
   <metadata>
-    <timestamp>2025-10-19T18:28:31.4354345Z</timestamp>
+    <timestamp>2025-10-20T18:57:05.7313685Z</timestamp>
     <tools>
       <tool>
         <vendor>CycloneDX</vendor>
@@ -171,7 +171,7 @@
       <description>Package Description</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="SHA-512">26F379746F5C5B1110C13C87BB47CF407248B42EE50D14C417BE1E3A73B7E53FFEF6A85CB03CBD19118CFEAB5F93E726A7F64B4DCB7C5EC69BD4842A272EBB2A</hash>
+        <hash alg="SHA-512">B6181196885FB1D479611E5288A4835927C41D5FBE723247FE11DA3A24621FB0AC8177862E10A9C7713FEBB99EF960F6E8BE77F8AF0D930DEEE71CA5CF3D8499</hash>
       </hashes>
       <licenses>
         <license>
@@ -668,6 +668,37 @@
         </reference>
         <reference type="vcs">
           <url>https://github.com/MessagePack-CSharp/MessagePack-CSharp</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.AspNetCore.OpenApi</name>
+      <version>9.0.10</version>
+      <description>Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/5bae930797f60d2d04f3b1df6a33eaca85fc5f28</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">067A42E46A7CB9A926C34624BCC5D3A2BCC0481CCD81159A57B7BE424CCB7323E86C4704F1ABE184C31949FE467516D691AE099CF3A7534B2EDC4450C8321968</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://asp.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspnetcore</url>
         </reference>
       </externalReferences>
     </component>
@@ -1616,6 +1647,62 @@ Microsoft.Extensions.Primitives.StringSegment</description>
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.NETCore.Platforms@3.1.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.NETCore.Platforms</name>
+      <version>3.1.0</version>
+      <description>Provides runtime information required to resolve target framework, platform, and runtime specific implementations of .NETCore packages. 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">636A1E3768F782CED193B18EC61616C122B5B756395BBEC3EDE805B172CE62DB2D631407DEEBBA73BF136234479BE4824F0268A57F52FF4F8D7D37D4370CD966</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.NETCore.Platforms@3.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.OpenApi@1.6.17">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.OpenApi</name>
+      <version>1.6.17</version>
+      <description>.NET models with JSON and YAML writers for OpenAPI specification</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">BA1B4BE38D99D55E974B831DA010CD4E53323E47F8328DBE912236CA727745E4ADF8B668ECA12E6974A56C0D56325E962261EBCEB2A10995128B21C722101BD2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.OpenApi@1.6.17</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Microsoft/OpenAPI.NET</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Microsoft/OpenAPI.NET</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61">
       <authors>
         <author>
@@ -1676,6 +1763,41 @@ Microsoft.Extensions.Primitives.StringSegment</description>
         </reference>
         <reference type="vcs">
           <url>https://github.com/microsoft/vs-validation</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Win32.Registry@4.7.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Win32.Registry</name>
+      <version>4.7.0</version>
+      <description>Provides support for accessing and modifying the Windows Registry.
+
+Commonly Used Types:
+Microsoft.Win32.RegistryKey
+Microsoft.Win32.Registry
+Microsoft.Win32.RegistryValueKind
+Microsoft.Win32.RegistryHive
+Microsoft.Win32.RegistryView
+ 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">FDA3DFFB486BD665557E603DB84D231722943AA333A4408A4FC0FD2BCB16E829883534B69D0D68FBC35B559BE9F9B919725E9DBC5FC8EE2AAA163546AFD46E03</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Win32.Registry@4.7.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
         </reference>
       </externalReferences>
     </component>
@@ -1766,6 +1888,120 @@ Microsoft.Extensions.Primitives.StringSegment</description>
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:nuget/runtime.native.System.Data.SqlClient.sni@4.7.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>runtime.native.System.Data.SqlClient.sni</name>
+      <version>4.7.0</version>
+      <description>Internal implementation package not meant for direct consumption.  Please do not reference directly. 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">6DA5BB3D224EEB10335846A5D3AB44FDEE157F19F9579AF8D6A548D4C5A3C0F5D36004FD5C71F2FFF81279A1FB8B61DAA8B8D2C64E03B57E26821CBCD7BA1ACA</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/runtime.native.System.Data.SqlClient.sni@4.7.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/runtime.win-arm64.runtime.native.System.Data.SqlClient.sni@4.4.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>runtime.win-arm64.runtime.native.System.Data.SqlClient.sni</name>
+      <version>4.4.0</version>
+      <description>Internal implementation package not meant for direct consumption.  Please do not reference directly. 
+d0d5c7b49271cadb6d97de26d8e623e98abdc8db 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">8B70D2DE4D689FA42B7BC4746AD04ABB553C68693BC0B099C2DF29D222E8D45C2294C4A52E1B02FFFD64A6A7F26FD009BB3D2F2081E8D7F2A0091D50EFE51305</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+          <url>http://go.microsoft.com/fwlink/?LinkId=329770</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+      <purl>pkg:nuget/runtime.win-arm64.runtime.native.System.Data.SqlClient.sni@4.4.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/runtime.win-x64.runtime.native.System.Data.SqlClient.sni@4.4.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>runtime.win-x64.runtime.native.System.Data.SqlClient.sni</name>
+      <version>4.4.0</version>
+      <description>Internal implementation package not meant for direct consumption.  Please do not reference directly. 
+d0d5c7b49271cadb6d97de26d8e623e98abdc8db 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">9D4E2A28266503FFBE411E6CB18922EBB92B1667D4E4081FABA46C16E23D4FE90DAF010D5650AECEFAD6F43C7AB9388B0CA644F4D0A2AA4E9D8F9E07208345FD</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+          <url>http://go.microsoft.com/fwlink/?LinkId=329770</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+      <purl>pkg:nuget/runtime.win-x64.runtime.native.System.Data.SqlClient.sni@4.4.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/runtime.win-x86.runtime.native.System.Data.SqlClient.sni@4.4.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>runtime.win-x86.runtime.native.System.Data.SqlClient.sni</name>
+      <version>4.4.0</version>
+      <description>Internal implementation package not meant for direct consumption.  Please do not reference directly. 
+d0d5c7b49271cadb6d97de26d8e623e98abdc8db 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">42D4BA39423A13F51B48FF3F04BB6BC7ACE0B4678C7838A433A14C3CBFCF28267089DF852056503B22A954CA1C1B53D1282C4A090D126EC6F4B7D0625D7E91B9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+          <url>http://go.microsoft.com/fwlink/?LinkId=329770</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation.  All rights reserved.</copyright>
+      <purl>pkg:nuget/runtime.win-x86.runtime.native.System.Data.SqlClient.sni@4.4.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:nuget/Semver@3.0.0">
       <authors>
         <author>
@@ -1821,6 +2057,45 @@ Microsoft.Extensions.Primitives.StringSegment</description>
         </reference>
         <reference type="vcs">
           <url>https://github.com/microsoft/vs-streamjsonrpc</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.Data.SqlClient@4.8.5">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.Data.SqlClient</name>
+      <version>4.8.5</version>
+      <description>Provides the data provider for SQL Server. These classes provide access to versions of SQL Server and encapsulate database-specific protocols, including tabular data stream (TDS)
+
+Commonly Used Types:
+System.Data.SqlClient.SqlConnection
+System.Data.SqlClient.SqlException
+System.Data.SqlClient.SqlParameter
+System.Data.SqlDbType
+System.Data.SqlClient.SqlDataReader
+System.Data.SqlClient.SqlCommand
+System.Data.SqlClient.SqlTransaction
+System.Data.SqlClient.SqlParameterCollection
+System.Data.SqlClient.SqlClientFactory
+ 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">D79092779A08502A9FA7456648C71D6028EC3FC8E4FD7473EDBD57BC0463C6441B094DB5B333F051920546743809F70411CAF9569F1D7EADE42D332D9BA8F868</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.Data.SqlClient@4.8.5</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
         </reference>
       </externalReferences>
     </component>
@@ -1923,6 +2198,110 @@ System.IO.Pipelines.PipeReader</description>
         </reference>
       </externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:nuget/System.Security.AccessControl@4.7.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.Security.AccessControl</name>
+      <version>4.7.0</version>
+      <description>Provides base classes that enable managing access and audit control lists on securable objects.
+
+Commonly Used Types:
+System.Security.AccessControl.AccessRule
+System.Security.AccessControl.AuditRule
+System.Security.AccessControl.ObjectAccessRule
+System.Security.AccessControl.ObjectAuditRule
+System.Security.AccessControl.ObjectSecurity
+ 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">464255881CC1AD9A0DF09EAA1EA926C75DF4196537A1C5ADB180665EC21F8DA627D00C778601EE05894EE745664374A38F0369778C98B29CBE236AA70DEAB5AE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.Security.AccessControl@4.7.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.Security.Principal.Windows@4.7.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.Security.Principal.Windows</name>
+      <version>4.7.0</version>
+      <description>Provides classes for retrieving the current Windows user and for interacting with Windows users and groups.
+
+Commonly Used Types:
+System.Security.Principal.WindowsIdentity
+System.Security.Principal.SecurityIdentifier
+System.Security.Principal.NTAccount
+System.Security.Principal.WindowsPrincipal
+System.Security.Principal.IdentityReference
+System.Security.Principal.IdentityNotMappedException
+System.Security.Principal.WindowsBuiltInRole
+System.Security.Principal.WellKnownSidType
+ 
+When using NuGet 3.x this package requires at least version 3.4.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">F30A16D34C8792DB60B2240363A8B200CAB28BC2C7441405CF19ABF71DBF5FB0BF3BD1CBEC4D9B5EB4CF73EC482E4505D08D80AFDEF00B2B4B3BB56D6D4CAE96</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.Security.Principal.Windows@4.7.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/corefx</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.Text.Json@9.0.3">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.Text.Json</name>
+      <version>9.0.3</version>
+      <description>Provides high-performance and low-allocating types that serialize objects to JavaScript Object Notation (JSON) text and deserialize JSON text to objects, with UTF-8 support built-in. Also provides types to read and write JSON text encoded as UTF-8, and to create an in-memory document object model (DOM), that is read-only, for random access of the JSON elements within a structured view of the data.
+
+The System.Text.Json library is built-in as part of the shared framework in .NET Runtime. The package can be installed when you need to use it in other target frameworks.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">A86C5F1FEA320DB6315021B5F66BB6F2A74A1F6E84F3B9FFE6087902E433A81A69EC7E604355B5DA338C1B3DB1DE5E7420BAA356692F1776BBDAECCB1EA0BBB5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.Text.Json@9.0.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
     <component type="library" bom-ref="pkg:nuget/YamlDotNet@16.3.0">
       <authors>
         <author>
@@ -1959,6 +2338,9 @@ System.IO.Pipelines.PipeReader</description>
       <dependency ref="pkg:nuget/Aspire.Hosting.AppHost@9.5.1" />
       <dependency ref="pkg:nuget/Aspire.Hosting.Orchestration.win-x64@9.5.1" />
       <dependency ref="pkg:nuget/DoYouTrustYourNuGetPackages.CodeTransformation.Package@1.0.0" />
+      <dependency ref="pkg:nuget/System.Text.Json@9.0.3" />
+      <dependency ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10" />
+      <dependency ref="pkg:nuget/System.Data.SqlClient@4.8.5" />
     </dependency>
     <dependency ref="pkg:nuget/Aspire.Dashboard.Sdk.win-x64@9.5.1" />
     <dependency ref="pkg:nuget/Aspire.Hosting.AppHost@9.5.1">
@@ -2062,6 +2444,9 @@ System.IO.Pipelines.PipeReader</description>
     <dependency ref="pkg:nuget/MessagePack@2.5.192">
       <dependency ref="pkg:nuget/MessagePack.Annotations@2.5.192" />
       <dependency ref="pkg:nuget/Microsoft.NET.StringTools@17.6.3" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10">
+      <dependency ref="pkg:nuget/Microsoft.OpenApi@1.6.17" />
     </dependency>
     <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9">
       <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
@@ -2225,10 +2610,16 @@ System.IO.Pipelines.PipeReader</description>
     </dependency>
     <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
     <dependency ref="pkg:nuget/Microsoft.NET.StringTools@17.6.3" />
+    <dependency ref="pkg:nuget/Microsoft.NETCore.Platforms@3.1.0" />
+    <dependency ref="pkg:nuget/Microsoft.OpenApi@1.6.17" />
     <dependency ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61">
       <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
     </dependency>
     <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
+    <dependency ref="pkg:nuget/Microsoft.Win32.Registry@4.7.0">
+      <dependency ref="pkg:nuget/System.Security.AccessControl@4.7.0" />
+      <dependency ref="pkg:nuget/System.Security.Principal.Windows@4.7.0" />
+    </dependency>
     <dependency ref="pkg:nuget/Nerdbank.Streams@2.12.87">
       <dependency ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61" />
       <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
@@ -2236,6 +2627,14 @@ System.IO.Pipelines.PipeReader</description>
     </dependency>
     <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
     <dependency ref="pkg:nuget/Polly.Core@8.6.3" />
+    <dependency ref="pkg:nuget/runtime.native.System.Data.SqlClient.sni@4.7.0">
+      <dependency ref="pkg:nuget/runtime.win-arm64.runtime.native.System.Data.SqlClient.sni@4.4.0" />
+      <dependency ref="pkg:nuget/runtime.win-x64.runtime.native.System.Data.SqlClient.sni@4.4.0" />
+      <dependency ref="pkg:nuget/runtime.win-x86.runtime.native.System.Data.SqlClient.sni@4.4.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/runtime.win-arm64.runtime.native.System.Data.SqlClient.sni@4.4.0" />
+    <dependency ref="pkg:nuget/runtime.win-x64.runtime.native.System.Data.SqlClient.sni@4.4.0" />
+    <dependency ref="pkg:nuget/runtime.win-x86.runtime.native.System.Data.SqlClient.sni@4.4.0" />
     <dependency ref="pkg:nuget/Semver@3.0.0">
       <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
     </dependency>
@@ -2247,9 +2646,20 @@ System.IO.Pipelines.PipeReader</description>
       <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
       <dependency ref="pkg:nuget/System.IO.Pipelines@8.0.0" />
     </dependency>
+    <dependency ref="pkg:nuget/System.Data.SqlClient@4.8.5">
+      <dependency ref="pkg:nuget/Microsoft.Win32.Registry@4.7.0" />
+      <dependency ref="pkg:nuget/System.Security.Principal.Windows@4.7.0" />
+      <dependency ref="pkg:nuget/runtime.native.System.Data.SqlClient.sni@4.7.0" />
+    </dependency>
     <dependency ref="pkg:nuget/System.Diagnostics.EventLog@9.0.9" />
     <dependency ref="pkg:nuget/System.IO.Hashing@9.0.8" />
     <dependency ref="pkg:nuget/System.IO.Pipelines@8.0.0" />
+    <dependency ref="pkg:nuget/System.Security.AccessControl@4.7.0">
+      <dependency ref="pkg:nuget/Microsoft.NETCore.Platforms@3.1.0" />
+      <dependency ref="pkg:nuget/System.Security.Principal.Windows@4.7.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/System.Security.Principal.Windows@4.7.0" />
+    <dependency ref="pkg:nuget/System.Text.Json@9.0.3" />
     <dependency ref="pkg:nuget/YamlDotNet@16.3.0" />
   </dependencies>
 </bom>
