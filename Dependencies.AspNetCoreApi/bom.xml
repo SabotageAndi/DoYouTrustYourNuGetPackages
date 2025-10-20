@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:796dc532-abc6-45c2-89eb-46a6c725ff2c" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2025-10-19T18:57:14.6318571Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX module for .NET</name>
+        <version>5.5.0.0</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="Dependencies.AspNetCoreApi@0.0.0">
+      <name>Dependencies.AspNetCoreApi</name>
+      <version>0.0.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.AspNetCore.OpenApi</name>
+      <version>9.0.10</version>
+      <description>Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/5bae930797f60d2d04f3b1df6a33eaca85fc5f28</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">067A42E46A7CB9A926C34624BCC5D3A2BCC0481CCD81159A57B7BE424CCB7323E86C4704F1ABE184C31949FE467516D691AE099CF3A7534B2EDC4450C8321968</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://asp.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspnetcore</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.OpenApi@1.6.17">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.OpenApi</name>
+      <version>1.6.17</version>
+      <description>.NET models with JSON and YAML writers for OpenAPI specification</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">BA1B4BE38D99D55E974B831DA010CD4E53323E47F8328DBE912236CA727745E4ADF8B668ECA12E6974A56C0D56325E962261EBCEB2A10995128B21C722101BD2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.OpenApi@1.6.17</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Microsoft/OpenAPI.NET</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Microsoft/OpenAPI.NET</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="Dependencies.AspNetCoreApi@0.0.0">
+      <dependency ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.AspNetCore.OpenApi@9.0.10">
+      <dependency ref="pkg:nuget/Microsoft.OpenApi@1.6.17" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.OpenApi@1.6.17" />
+  </dependencies>
+</bom>

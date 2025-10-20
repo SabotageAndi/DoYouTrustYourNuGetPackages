@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:536265e6-3122-428a-a036-6cccff8417f1" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2025-10-19T18:49:29.6730694Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX module for .NET</name>
+        <version>5.5.0.0</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="Dependencies.Blazor@0.0.0">
+      <name>Dependencies.Blazor</name>
+      <version>0.0.0</version>
+    </component>
+  </metadata>
+  <components />
+  <dependencies>
+    <dependency ref="Dependencies.Blazor@0.0.0" />
+  </dependencies>
+</bom>

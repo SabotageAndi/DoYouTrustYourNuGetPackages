@@ -1,0 +1,2255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:8f764949-abe9-42c8-8ec7-7be705a411a3" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2025-10-19T18:28:31.4354345Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>CycloneDX module for .NET</name>
+        <version>5.5.0.0</version>
+      </tool>
+    </tools>
+    <component type="application" bom-ref="DoYouTrustYourNuGetPackages@0.0.0">
+      <name>DoYouTrustYourNuGetPackages</name>
+      <version>0.0.0</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:nuget/Aspire.Dashboard.Sdk.win-x64@9.5.1">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Aspire.Dashboard.Sdk.win-x64</name>
+      <version>9.5.1</version>
+      <description>Dashboard browser interface for .NET Aspire.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">C224C247BF394AA526FCFB46D2876812A2B63CF51E67BF032E23893CDBD1BC9D7B18DC0559FD3DE1B06DCEFD47A0465B4EA5BA416136BF0E33C7EF6227ABD1E6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+          <url>https://aka.ms/deprecateLicenseUrl</url>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Aspire.Dashboard.Sdk.win-x64@9.5.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Aspire.Hosting@9.5.1">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Aspire.Hosting</name>
+      <version>9.5.1</version>
+      <description>Core abstractions for the .NET Aspire application model.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">492B49BB4E8C501B1767C3E1359CB3035BC2E411E89B7F5D8D7F662FA0A1DDE02177A3D52DE312FD30CA0079106CF9016E5FF55987046EB2D2188C0918544EED</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Aspire.Hosting@9.5.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Aspire.Hosting.AppHost@9.5.1">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Aspire.Hosting.AppHost</name>
+      <version>9.5.1</version>
+      <description>Core library and MSBuild logic for .NET Aspire AppHost projects.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">1AA8E0C0B937336E2AAB38CFD094F82BEAF74EFC04C971458A9E6DD9C3AA1DEDAF0BCD9ABA4781DC6559B9FC24900756BDDF3E9F66D9EDE75CD15A72BCCBE3FC</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Aspire.Hosting.AppHost@9.5.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Aspire.Hosting.Orchestration.win-x64@9.5.1">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Aspire.Hosting.Orchestration.win-x64</name>
+      <version>9.5.1</version>
+      <description>.NET Aspire Orchestration Dependencies</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">4378B895CA83207E0FF251AF6F86FC6E4A5E09B755FF70C4D6B3E4E8DA4A87B703D48F63602F3F4606E527A6ED4D3D3B0BB2A79BE6F7119E137ABF3BD769F1D7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Aspire.Hosting.Orchestration.win-x64@9.5.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspire</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/AspNetCore.HealthChecks.Uris@9.0.0">
+      <authors>
+        <author>
+          <name>Xabaril Contributors</name>
+        </author>
+      </authors>
+      <name>AspNetCore.HealthChecks.Uris</name>
+      <version>9.0.0</version>
+      <description>HealthChecks.Uris is a simple health check package for Uri groups.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">99A4B51086731F57D6536AA7A55D56E239C51ACC2F101B799870554201BBA476226ED63B92C61F21B1D944F52CA18691FD2DF670BE899831818D097902AD9991</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/AspNetCore.HealthChecks.Uris@9.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/DoYouTrustYourNuGetPackages.CodeTransformation.Package@1.0.0">
+      <authors>
+        <author>
+          <name>DoYouTrustYourNuGetPackages.CodeTransformation.Package</name>
+        </author>
+      </authors>
+      <name>DoYouTrustYourNuGetPackages.CodeTransformation.Package</name>
+      <version>1.0.0</version>
+      <description>Package Description</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">26F379746F5C5B1110C13C87BB47CF407248B42EE50D14C417BE1E3A73B7E53FFEF6A85CB03CBD19118CFEAB5F93E726A7F64B4DCB7C5EC69BD4842A272EBB2A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/DoYouTrustYourNuGetPackages.CodeTransformation.Package@1.0.0</purl>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Fractions@7.3.0">
+      <authors>
+        <author>
+          <name>Daniel Mueller</name>
+        </author>
+      </authors>
+      <name>Fractions</name>
+      <version>7.3.0</version>
+      <description>The fraction data type consists of two BigInteger values for numerator and denominator. It implements various operations (addition, subtraction, multiplication, division and remainder) with operator overloads.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">3EB3AC031963395597476A225CB890AC1AB30E829CF5325DB5C396BA07B202F9D72FF8661E7D77491A6D9C37691E408F2B597B659DF2C6DA08BAB7A7F298F681</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>Unknown - See URL</name>
+          <url>https://aka.ms/deprecateLicenseUrl</url>
+        </license>
+      </licenses>
+      <copyright>Copyright 2013-2023 Daniel Mueller</copyright>
+      <purl>pkg:nuget/Fractions@7.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/danm-de/Fractions</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/danm-de/Fractions.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Google.Protobuf@3.32.0">
+      <authors>
+        <author>
+          <name>Google Inc.</name>
+        </author>
+      </authors>
+      <name>Google.Protobuf</name>
+      <version>3.32.0</version>
+      <description>C# runtime library for Protocol Buffers - Google's data interchange format.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">6051D2471B3E3E2CF2F5E272EF42BE7623C24B084B740B9D4066AA256F985156E7760B1B254C26CB53795F69A18E460FA9F223FCAA89CA7991FAB93D781D327C</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2015, Google Inc.</copyright>
+      <purl>pkg:nuget/Google.Protobuf@3.32.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/protocolbuffers/protobuf</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/protocolbuffers/protobuf.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.AspNetCore@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.AspNetCore</name>
+      <version>2.71.0</version>
+      <description>gRPC meta-package for ASP.NET Core</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">3D19EADE02705BD37E94A34E7D26A672FB56A785E4FB33650D1ADE7843B926BE78D764090682D40E522D9FC302815F3A4D770EFAFEB3EEBE04D3EC9F6C808725</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.AspNetCore@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.AspNetCore.Server@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.AspNetCore.Server</name>
+      <version>2.71.0</version>
+      <description>gRPC support for ASP.NET Core</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">3B3B312BCDFEE73EBC882347B25BCE56D7B787B875DDA478DECCEFD8059663ABCB708CA677DD4AE18EAC26550A6036AF9A6EC1BEE6824F6E7FF248DA6337914A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.AspNetCore.Server@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.AspNetCore.Server.ClientFactory@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.AspNetCore.Server.ClientFactory</name>
+      <version>2.71.0</version>
+      <description>HttpClientFactory integration the for gRPC .NET client when running in ASP.NET Core</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">7BF0107CCC96B409AC0133AFC4726E6BE9B39E65CEA9D7F938A45DA3D8E961AA1B8E78B19AFDA56AC7C231EF96F0A28A3E2028E2D09705782DF9A8F58E0AC717</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.AspNetCore.Server.ClientFactory@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.Core.Api@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.Core.Api</name>
+      <version>2.71.0</version>
+      <description>gRPC C# Surface API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">4FF7F0BB7D70FB535D71F5492FA576E3BED577FEEED7AE2C4181FA62D9B66F29BFBCCB94EFBD9F4C954400D21C1593C959BCF12424D620EA6421CD986989B40F</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.Core.Api@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.Net.Client@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.Net.Client</name>
+      <version>2.71.0</version>
+      <description>.NET client for gRPC</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">009821890EED7DE6A8A8B201B097C239A916E666797EB9253A352557D071109BC18AE6FC1634D235572D02CC47D7DC38BFAD0A9D2E98808B116C6DCD25CF8ABA</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.Net.Client@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.Net.ClientFactory@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.Net.ClientFactory</name>
+      <version>2.71.0</version>
+      <description>HttpClientFactory integration the for gRPC .NET client</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">07754FFB580A6883DE4D8FDA7B0CF346DB7E487EA47EA3EE02947015EC7D3AAB1AB6492BA40BCBF748CACBC7B0329A48A798713A7F7B865D06B84C30060010CA</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.Net.ClientFactory@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.Net.Common@2.71.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.Net.Common</name>
+      <version>2.71.0</version>
+      <description>Infrastructure for common functionality in gRPC</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">1FB4D67BC75D0F138F0A475F0CB26A475AA67B8770C5DC7B5A47FBC73D6E5BFB8C459FEF4C629A476CE8CF16746CFB2872725113A243EC60764295A449D55F79</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2019 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.Net.Common@2.71.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc-dotnet</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc-dotnet.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Grpc.Tools@2.72.0">
+      <authors>
+        <author>
+          <name>The gRPC Authors</name>
+        </author>
+      </authors>
+      <name>Grpc.Tools</name>
+      <version>2.72.0</version>
+      <description>gRPC and Protocol Buffer compiler for C# projects</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">47C5E42D405D63E4679B993E236136D64A5F21F204D75183AE182E17513137A98070E960BF04B9400519B25C64542DB67786E0D184C56C47E6A9DEAF9FAE07CC</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>Copyright 2018 The gRPC Authors</copyright>
+      <purl>pkg:nuget/Grpc.Tools@2.72.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/grpc/grpc</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/grpc/grpc.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Humanizer.Core@2.14.1">
+      <authors>
+        <author>
+          <name>Mehdi Khalili, Claire Novotny</name>
+        </author>
+      </authors>
+      <name>Humanizer.Core</name>
+      <version>2.14.1</version>
+      <description>Humanizer core package that contains the library and the neutral language (English) resources</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">CB3A8653F1CA34B67D52FAFA92F49CDF0615FD2E4EFC8BE4948516E5617B32E8AF18B63CC12E486672CF92DEC3D4A5BC12DD849E5D08DCBCE0DAF196336E17B3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+      <purl>pkg:nuget/Humanizer.Core@2.14.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Humanizr/Humanizer</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Humanizr/Humanizer</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Json.More.Net@2.1.0">
+      <authors>
+        <author>
+          <name>Greg Dennis</name>
+        </author>
+      </authors>
+      <name>Json.More.Net</name>
+      <version>2.1.0</version>
+      <description>Provides extended functionality for the System.Text.Json namespace.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">4F68D16E35E9E690CFAD2C361CC820482AE68B3CA41FD500690A24711E1A7518DDA1E83835CFC001E598F352B7CD659446DA1CECEDF96A6176C04D169C3F7322</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/Json.More.Net@2.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/JsonPatch.Net@3.3.0">
+      <authors>
+        <author>
+          <name>Greg Dennis</name>
+        </author>
+      </authors>
+      <name>JsonPatch.Net</name>
+      <version>3.3.0</version>
+      <description>JSON Patch built on the System.Text.Json namespace</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">B5354BDA136E7ABCD40F7D94D7C6E65D19349920E16A90F5B0015D8AD29AE0814EB3FE20853EC3806DF96AEA36C117F9AE9BE5E384662E07EB81513422A5515B</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/JsonPatch.Net@3.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/JsonPointer.Net@5.2.0">
+      <authors>
+        <author>
+          <name>Greg Dennis</name>
+        </author>
+      </authors>
+      <name>JsonPointer.Net</name>
+      <version>5.2.0</version>
+      <description>JSON Pointer built on the System.Text.Json namespace</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">09DA24FEF586860D78AEE70C6AE65D67333BDCCD4B10ADF453686C497BF64DE401E6A116BC2F29273C9C5E05A52508A6785E8BADCC1D9FB3A7E5674156640FAE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:nuget/JsonPointer.Net@5.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/json-everything/json-everything</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/KubernetesClient@17.0.14">
+      <authors>
+        <author>
+          <name>The Kubernetes Project Authors</name>
+        </author>
+      </authors>
+      <name>KubernetesClient</name>
+      <version>17.0.14</version>
+      <description>Client library for the Kubernetes open source container orchestrator.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">913E1943154D29EBC39CD9749A665910CD4DDF817A05D21F542F034A60825576750D4CBE370192D3EDACD80A3A3FDFB2C292617A841757CC4634DB0E63925356</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <copyright>2017 The Kubernetes Project Authors</copyright>
+      <purl>pkg:nuget/KubernetesClient@17.0.14</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/kubernetes-client/csharp</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/kubernetes-client/csharp</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/MessagePack@2.5.192">
+      <authors>
+        <author>
+          <name>neuecc,aarnott</name>
+        </author>
+      </authors>
+      <name>MessagePack</name>
+      <version>2.5.192</version>
+      <description>Extremely Fast MessagePack(MsgPack) Serializer for C# (.NET Framework, .NET 6, Unity, Xamarin).</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">4A7AF049020A59FC5C42FCC4D530943EF27B03FE3828504372609CF9850322AF106A509FD1B1808E20680057B0849F3542E4B916C08D08E70A9FE21445895B01</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Yoshifumi Kawai and contributors. All rights reserved.</copyright>
+      <purl>pkg:nuget/MessagePack@2.5.192</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/neuecc/MessagePack-CSharp</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/MessagePack-CSharp/MessagePack-CSharp</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/MessagePack.Annotations@2.5.192">
+      <authors>
+        <author>
+          <name>neuecc,aarnott</name>
+        </author>
+      </authors>
+      <name>MessagePack.Annotations</name>
+      <version>2.5.192</version>
+      <description>Attributes and interfaces for .NET types serializable with MessagePack.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">A44FD20F6374FA70C053C06D4C7AA3C8884B3362F931BD0D88EE215B4C9B8AFD88F816CAD0911A1AD6CAA5E1263AF293FB9B3685DB3482F93F1AB00786072977</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Yoshifumi Kawai and contributors. All rights reserved.</copyright>
+      <purl>pkg:nuget/MessagePack.Annotations@2.5.192</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/neuecc/MessagePack-CSharp</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/MessagePack-CSharp/MessagePack-CSharp</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration</name>
+      <version>9.0.9</version>
+      <description>Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">4F21DC4D7A2046D4D9D16614B6465BAB7BB876FCB2F35D9D5372FEAC80029C82199A945788A1938633DFA8E9F9120FA3252DC24032045FA4C8FB514C20B22ABC</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Provides abstractions of key-value pair based configuration. Interfaces defined in this package are implemented by classes in Microsoft.Extensions.Configuration and other configuration packages.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">864AF4CB63998DB5E911561504E1014B1655D288DD043B106FB2EC5EBB03EC5C2512BF272736C44504D62B9AB2C48932A06BEF53CB4C291F6A8949D4C697F898</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.Binder</name>
+      <version>9.0.9</version>
+      <description>Provides the functionality to bind an object to data in configuration providers for Microsoft.Extensions.Configuration. This package enables you to represent the configuration data as strongly-typed classes defined in the application code. To bind a configuration, use the Microsoft.Extensions.Configuration.ConfigurationBinder.Get extension method on the IConfiguration object. To use this package, you also need to install a package for the configuration provider, for example, Microsoft.Extensions.Configuration.Json for the JSON provider.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">221D30F14DE43E1FBC0F9A488608C9CAB329469D0C9ADD359F01E02B66BFE56D3E7909159C98033AB8BADBD0AA6C25BB74404AA347D4F7378E629A89242FA37D</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.CommandLine@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.CommandLine</name>
+      <version>9.0.9</version>
+      <description>Command line configuration provider implementation for Microsoft.Extensions.Configuration. This package enables you to read configuration parameters from the command line arguments of your application. You can use CommandLineConfigurationExtensions.AddCommandLine extension method on IConfigurationBuilder to add the command line configuration provider to the configuration builder.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">5BA2C63A02636E3203B17B374B3C99497CAFF343F17D6B0A465F2036B50E94BEB1B766500EF4E0453B6E9053B4389CA288AE6E1EC6E15D6AE5653C317C45FEC8</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.CommandLine@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.EnvironmentVariables</name>
+      <version>9.0.9</version>
+      <description>Environment variables configuration provider implementation for Microsoft.Extensions.Configuration. This package enables you to read configuration parameters from environment variables. You can use EnvironmentVariablesExtensions.AddEnvironmentVariables extension method on IConfigurationBuilder to add the environment variables configuration provider to the configuration builder.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">2CD6EBAA0C0B8F9A88CB979783F62A8C39BD04562A131E3B5794FD3E15B83F73EE442930170FF025C1133309C20C99F293139268CD466A2EE4B6B11564EF5E1A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.FileExtensions</name>
+      <version>9.0.9</version>
+      <description>Provides a base class for file-based configuration providers used with Microsoft.Extensions.Configuration and extension methods for configuring them.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">1E6CB131CB867A21E21D9AD292C1AB7C8207EC354BC4C66179C950CB12723E6FFE29F6FCB7B878DA8E3139A2BFC2E38B486D3B9E65374393C3D3F7519A7D92BF</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.Json@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.Json</name>
+      <version>9.0.9</version>
+      <description>JSON configuration provider implementation for Microsoft.Extensions.Configuration. This package enables you to read your application's settings from a JSON file. You can use JsonConfigurationExtensions.AddJsonFile extension method on IConfigurationBuilder to add the JSON configuration provider to the configuration builder.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">2606F7557B600763FA909DBAD5CA244318BEBEF39BC017EA6D7C8CA0A851CF7128EA4A100DEEC11DCBBA1378CDD64120EE95E417FA8816250F58A2E3969A84FF</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.Json@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Configuration.UserSecrets@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Configuration.UserSecrets</name>
+      <version>9.0.9</version>
+      <description>User secrets configuration provider implementation for Microsoft.Extensions.Configuration. User secrets mechanism enables you to override application configuration settings with values stored in the local secrets file. You can use UserSecretsConfigurationExtensions.AddUserSecrets extension method on IConfigurationBuilder to add user secrets provider to the configuration builder.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">FD5B7E43C58A6E11B7B21CECE0DEE3FE296C30C44A5CA7A73D6E8AB6A05ED0649E812F0423ABF86F3BCB92C0483E5387557916D35EDA56134FC9F8CA2A98FDD3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Configuration.UserSecrets@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.DependencyInjection@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.DependencyInjection</name>
+      <version>9.0.9</version>
+      <description>Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">70B8A9D2A3E8CEE032E656D1E8279AC18EDFD2F5941BCE34C47AE691775951151FF41D1D6FFC761D45EF7B27005698C950FCE7EA13F8DF2840D9CF48DC54565F</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.DependencyInjection@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.DependencyInjection.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Abstractions for dependency injection.
+
+Commonly Used Types:
+Microsoft.Extensions.DependencyInjection.IServiceCollection</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">1A2CB91A4111EBEC10D464267C8AF7B3B6150BEC722BD6EA5A7F7657100DDE397CE37F3175E38D2AD8A6F41E7039FFA80C8D942453E9D9C062C01A63915BB1DA</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Diagnostics@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Diagnostics</name>
+      <version>9.0.9</version>
+      <description>This package includes the default implementation of IMeterFactory and additional extension methods to easily register it with the Dependency Injection framework.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">F861686E51EF4316509A376BB15BDC8A0EC4B960B2E27F679AC3A8FD5A1DB77FE684059BAA64A1CF018DE13C1EE4D1C848D1DFE72BA8C73FB52D448272C4D78E</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Diagnostics@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Diagnostics.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Diagnostic abstractions for Microsoft.Extensions.Diagnostics.
+
+Commonly Used Types:
+Microsoft.Extensions.Diagnostics.Metrics.IMetricsBuilder
+Microsoft.Extensions.Diagnostics.Metrics.IMetricsListener
+Microsoft.Extensions.Diagnostics.Metrics.InstrumentRule
+Microsoft.Extensions.Diagnostics.Metrics.MeterScope
+Microsoft.Extensions.Diagnostics.Metrics.MetricsBuilderExtensions
+Microsoft.Extensions.Diagnostics.Metrics.MetricsOptions</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">6405A4E04C7E748CDD9D0FDB99C10986BE983D8C22B8EA5A325A97BFF7F4072785690025A71BDCA38850313C17827BE581F88A627FA6416DA7B2BCE98E968509</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Diagnostics.HealthChecks</name>
+      <version>9.0.9</version>
+      <description>Components for performing health checks in .NET applications
+
+Commonly Used Types:
+Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService
+Microsoft.Extensions.Diagnostics.HealthChecks.IHealthChecksBuilder
+    
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/ff66c263be7ed395794bdaf616322977b8ec897c</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">82B4DF59889EB36559F87F8C4EF77EFE16010511D0625084D138C5A4FB1C391C3D98231D31EEC75EA4CF16E3CC09751961A832FC80F88AF80C4E1146911B2DC5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://asp.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspnetcore</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Abstractions for defining health checks in .NET applications
+
+Commonly Used Types
+Microsoft.Extensions.Diagnostics.HealthChecks.IHealthCheck
+    
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/ff66c263be7ed395794bdaf616322977b8ec897c</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">351BE1210AB8E24718400ABF0653CBC602DBEC98B87FC4F215A40EAEE5674E4EF59EA9B0FF655351E5313E2C37F3F0131B82DC6F74C1B58DF6E92E04AE9D5C23</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://asp.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/aspnetcore</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.FileProviders.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Abstractions of files and directories.
+
+Commonly Used Types:
+Microsoft.Extensions.FileProviders.IDirectoryContents
+Microsoft.Extensions.FileProviders.IFileInfo
+Microsoft.Extensions.FileProviders.IFileProvider</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">D076C76858191FDF4428AC8776C978DC7A917F81A637251E98311B8CE3A855A0D2CB42125BE3B393369F23D8C7C738D75B803BC15E53A52D315E0B1AA20641C3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.FileProviders.Physical</name>
+      <version>9.0.9</version>
+      <description>File provider for physical files for Microsoft.Extensions.FileProviders.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">F13E175B2B75F199003F9D90A35F25A7034CB12A937320668A8DA757EC0EB6A273F0AEBE8F7ADDD59B34ECEDDEA9158D4ACF627C3B4C2CC37DD1304B7BBD43BA</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.FileSystemGlobbing@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.FileSystemGlobbing</name>
+      <version>9.0.9</version>
+      <description>File system globbing to find files matching a specified pattern.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">0173967B106EEA375B19CB4779717A5FAF6017641B3EC559EC163D608105EF1E1C42B3CFC69890E8329F7353F1B63E2BEEF7F1C0F60799D8A78B070463AC6A80</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.FileSystemGlobbing@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Hosting@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Hosting</name>
+      <version>9.0.9</version>
+      <description>Hosting and startup infrastructures for applications.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">89EA5B546F047F1A3AB3212FD7ED239A21EF03F8F94B9085E5318C7DFD7B3559469E0CB9C49077F08C79AC68408ACCA1E9016965B35A9130B92B363DA0D485DF</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Hosting@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Hosting.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Hosting and startup abstractions for applications.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">7C8C9DA81132E92E83195312FF528A1055CB1AB736A083274AE7DEC168FCEF21BAC1A251AF654C7B948D512D2C31F6753FB5C8975831134DE79F315636543A2F</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Http</name>
+      <version>9.0.9</version>
+      <description>The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. The HttpClient factory provides extensibility to plug in DelegatingHandlers that address cross-cutting concerns such as service location, load balancing, and reliability. The default HttpClient factory provides built-in diagnostics and logging and manages the lifetimes of connections in a performant way.
+
+Commonly Used Types:
+System.Net.Http.IHttpClientFactory</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">1D548E93BD5D422C5DF7760B06C657D5EE383AD57848C5E84D5B1A8571CFD6FA1C75DDC3DC1AADA430967F5B9F8C4CBFE968A91041EBBCEDEBDAF2E2591A13BE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Http@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging</name>
+      <version>9.0.9</version>
+      <description>Logging infrastructure default implementation for Microsoft.Extensions.Logging.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">52C2B2FB54ABA62533E1C74304C9872926CF04009ACE7A342F3271389175008C4F00D5C05E469D5693763C48FB564CDE11BC03B4FF176F91483672B6BA9F6AAE</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.Abstractions</name>
+      <version>9.0.9</version>
+      <description>Logging abstractions for Microsoft.Extensions.Logging.
+
+Commonly Used Types:
+Microsoft.Extensions.Logging.ILogger
+Microsoft.Extensions.Logging.ILoggerFactory
+Microsoft.Extensions.Logging.ILogger&lt;TCategoryName&gt;
+Microsoft.Extensions.Logging.LogLevel
+Microsoft.Extensions.Logging.Logger&lt;T&gt;
+Microsoft.Extensions.Logging.LoggerMessage
+Microsoft.Extensions.Logging.Abstractions.NullLogger</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">BB453E4BCD19A0784DD6D6D207BB286A56F66B7E18D7A83889F26D23CFDA0CE76686ED9B68F10FDA902D3A3459EDB4B65E272AE80B92AEC76FE574D22E1E43D6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Configuration@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.Configuration</name>
+      <version>9.0.9</version>
+      <description>Configuration support for Microsoft.Extensions.Logging.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">261AD2FAA6FEB0E8D9DC85236EBE64AF4D4274D7E2196126AAC43B9A393D16DA242AE3571E7D7E9BAE332270E041781BBF8B223750C714960303F69EBA2D3961</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Configuration@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Console@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.Console</name>
+      <version>9.0.9</version>
+      <description>Console logger provider implementation for Microsoft.Extensions.Logging.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">C88AB72E550C7D541DAFD28D25D25CB6B95B2BC5BA5E326609F01BBC0A9CE7EC8DB6B8FE6B85E500BD281191CBFF25B1E72888B869BE362221E87E43BCCFF5C7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Console@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.Debug@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.Debug</name>
+      <version>9.0.9</version>
+      <description>Debug output logger provider implementation for Microsoft.Extensions.Logging. This logger logs messages to a debugger monitor by writing messages with System.Diagnostics.Debug.WriteLine().</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">05333624EA26E61FFE322A4CE163B96258A61AAB850B5836BEEDAB95C5252A59C5E7F148929E3E73D3669E1B891284572E7E406EB51DD9499371E1E64930BFC9</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.Debug@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.EventLog@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.EventLog</name>
+      <version>9.0.9</version>
+      <description>Windows Event Log logger provider implementation for Microsoft.Extensions.Logging.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">72F3148195423CE0F56B26A5784E8CF32C12BF0A3F78ECCD3E95F4E677B4B5F7518F882A6F55B59E8FF4EE25AAD6B83D7BC4A2A838483C634BB91D78A552971A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.EventLog@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Logging.EventSource@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Logging.EventSource</name>
+      <version>9.0.9</version>
+      <description>EventSource/EventListener logger provider implementation for Microsoft.Extensions.Logging.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">661345AE7C510F7D7E24B5E04444EA8B6CC7FC4EDE3C29C43278F558D6E5821998F5A85527E4538385F91D3D1CC1AC2632D3644D86350CC77E84585036A4E26A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Logging.EventSource@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Options</name>
+      <version>9.0.9</version>
+      <description>Provides a strongly typed way of specifying and accessing settings using dependency injection.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">3BE46C1F7A1D6860EFC69F46973A79BE5C0B9552565C431E23EFCA8B9FAC23C64C528118497120E68E1A53D105D89FB70D0B88285A98FD489B3B6FDB880CEC26</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Options@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Options.ConfigurationExtensions</name>
+      <version>9.0.9</version>
+      <description>Provides additional configuration specific functionality related to Options.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">B91FDD500FF4D6A1E9D1FA6278957059B8CCBB7FCD9FF93A0616E091F220545DB66E4A88AB82EA711AE34EFB39846870F9D31B5325688004013B44581EEE01F4</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.Extensions.Primitives</name>
+      <version>9.0.9</version>
+      <description>Primitives shared by framework extensions. Commonly used types include:
+
+Commonly Used Types:
+Microsoft.Extensions.Primitives.IChangeToken
+Microsoft.Extensions.Primitives.StringValues
+Microsoft.Extensions.Primitives.StringSegment</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">2F871A6AD3414700AD08EAEA1ACBEC6E06D466C6E9E86AE04298DB15132C5827EB8E18E00759D427F160794ED94FC4D06AB59CC11E510AC631BF272CD7A9AC2D</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.Extensions.Primitives@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.NET.StringTools@17.6.3">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.NET.StringTools</name>
+      <version>17.6.3</version>
+      <description>This package contains the Microsoft.NET.StringTools assembly which implements common string-related functionality such as weak interning.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">87935C5DE9971A39E62E39F09655CF1E8B0B7E90B9F8FCB8241369417083329FB3F265A71823DD3CAE6982A33516C84FA123D5A4DCDD0CF93F30CBAAA825C56B</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.NET.StringTools@17.6.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://go.microsoft.com/fwlink/?LinkId=624683</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/msbuild</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.VisualStudio.Threading.Only</name>
+      <version>17.13.61</version>
+      <description>Async synchronization primitives, async collections, TPL and dataflow extensions.
+      The JoinableTaskFactory allows synchronously blocking the UI thread for async work. This
+      package is applicable to any .NET application (not just Visual Studio).
+    
+      This package contains only the library, without a dependency on the analyzers.
+      Use the Microsoft.VisualStudio.Threading package to get the library and analyzers together.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">8E4446AC24D975FE85FD4EBAC390295EC4D94B415438B0FE7AB2E0AB13B979AD13D41E2FD06C9773900FA83A176830C07843C2B372133A3860BAD2CFB9370C63</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://microsoft.github.io/vs-threading/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/vs-threading</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>Microsoft.VisualStudio.Validation</name>
+      <version>17.8.8</version>
+      <description>Common input validation and state verification utility methods.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">55AC16E290EFDAC4C1F44C450378A136240F91D7212BF9BA5E004F151E86BCA72EF906A51ACCA9BBA6D018BEDE1456E26296D0168B421303CA31DEF52C52154E</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Microsoft/vs-validation</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/vs-validation</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Nerdbank.Streams@2.12.87">
+      <authors>
+        <author>
+          <name>Andrew Arnott</name>
+        </author>
+      </authors>
+      <name>Nerdbank.Streams</name>
+      <version>2.12.87</version>
+      <description>Streams for full duplex in-proc communication, wrap a WebSocket, split a stream into multiple channels, etc.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">0C72507F027065BD26874C44BCC89204034D6A98F9265C84C3B770D9D0F51694764519D37A3C1CE164A77C9E379CE5BF528A6E95669E963F8329D28E77E86A3A</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Andrew Arnott. All rights reserved.</copyright>
+      <purl>pkg:nuget/Nerdbank.Streams@2.12.87</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/AArnott/Nerdbank.Streams</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/AArnott/Nerdbank.Streams</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Newtonsoft.Json@13.0.3">
+      <authors>
+        <author>
+          <name>James Newton-King</name>
+        </author>
+      </authors>
+      <name>Newtonsoft.Json</name>
+      <version>13.0.3</version>
+      <description>Json.NET is a popular high-performance JSON framework for .NET</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">99B252BC77D1C5F5F7B51FD4EA7D5653E9961D7B3061CF9207F8643A9C7CC9965EEBC84D6467F2989BB4723B1A244915CC232A78F894E8B748CA882A7C89FB92</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright © James Newton-King 2008</copyright>
+      <purl>pkg:nuget/Newtonsoft.Json@13.0.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://www.newtonsoft.com/json</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/JamesNK/Newtonsoft.Json</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Polly.Core@8.6.3">
+      <authors>
+        <author>
+          <name>Michael Wolfenden, App vNext</name>
+        </author>
+      </authors>
+      <name>Polly.Core</name>
+      <version>8.6.3</version>
+      <description>Polly.Core is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Chaos and Fallback in a fluent and thread-safe manner.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">7565B8526091D4B3DB4D09F1D6A46F2F449AD4D37C8D6564935C50E95AA18FC36CD89F5B99CBD8B2431C0C85D6F31F8401A10DB9BCEA343ED54419EFF289AC79</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2015-2025, App vNext</copyright>
+      <purl>pkg:nuget/Polly.Core@8.6.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/App-vNext/Polly</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/App-vNext/Polly</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/Semver@3.0.0">
+      <authors>
+        <author>
+          <name>Jeff Walker, Max Hauser</name>
+        </author>
+      </authors>
+      <name>Semver</name>
+      <version>3.0.0</version>
+      <description>A semantic version library fully compliant with v2.0.0 of the spec found at http://semver.org.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">5F96CB1287DCA1C8F288A64C68AAFF637294CB54F00FC4FBE777BC934911A37FBAED120AA98D7FA36B5304FAC2AA3EF81BC98E5D427DCFDF4DE6B9FE5570AB70</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright © 2013-2024 Jeff Walker, Max Hauser</copyright>
+      <purl>pkg:nuget/Semver@3.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/WalkerCodeRanger/semver</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/WalkerCodeRanger/semver</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/StreamJsonRpc@2.22.11">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>StreamJsonRpc</name>
+      <version>2.22.11</version>
+      <description>A cross-platform .NETStandard library that implements the JSON-RPC wire protocol and can use System.IO.Stream, System.IO.Pipelines or WebSocket so you can use it with any transport.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">BC54418398C189837943E72B4021E6BBC419BFAFEEE373A6B017C3CF097F8515744B17C23FFEA0873EE8A288C6E4868E7D3D5E04CC63B805614652F76804158E</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/StreamJsonRpc@2.22.11</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/Microsoft/vs-streamjsonrpc</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/vs-streamjsonrpc</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.Diagnostics.EventLog@9.0.9">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.Diagnostics.EventLog</name>
+      <version>9.0.9</version>
+      <description>Provides the System.Diagnostics.EventLog class, which allows the applications to use the Windows event log service.
+
+Commonly Used Types:
+System.Diagnostics.EventLog</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">B5C5165E0D275262B968137CC6AEA79ADE5F6A46ADCB3649DBFDAB9D1B04E05C8598662E64EB8A7B7C9CEE3D1B5C034300B164C94284815316A0CDDC283380FC</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.Diagnostics.EventLog@9.0.9</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.IO.Hashing@9.0.8">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.IO.Hashing</name>
+      <version>9.0.8</version>
+      <description>Provides non-cryptographic hash algorithms, such as CRC-32.
+
+Commonly Used Types:
+System.IO.Hashing.Crc32
+System.IO.Hashing.XxHash32</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">9487EBC3BC921258B3185F312ADE549BB5CD3FE37EDD253BD511F5D34DAE98FA9B7C4DC5528ED4F0B95C46BDF1F12E5A090CFF50F68C389C11B973C368FE969F</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.IO.Hashing@9.0.8</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/System.IO.Pipelines@8.0.0">
+      <authors>
+        <author>
+          <name>Microsoft</name>
+        </author>
+      </authors>
+      <name>System.IO.Pipelines</name>
+      <version>8.0.0</version>
+      <description>Single producer single consumer byte buffer management.
+
+Commonly Used Types:
+System.IO.Pipelines.Pipe
+System.IO.Pipelines.PipeWriter
+System.IO.Pipelines.PipeReader</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">57EB6A11E84F40A48B57B1DC5786A01AA9852122B7D15363490D8A12C9A458BF99A8DDF4C0C0247BE98559C2B42E769A10BDA2C5A9817735484D960DC652EB12</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+      <purl>pkg:nuget/System.IO.Pipelines@8.0.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://dot.net/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dotnet/runtime</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:nuget/YamlDotNet@16.3.0">
+      <authors>
+        <author>
+          <name>Antoine Aubry</name>
+        </author>
+      </authors>
+      <name>YamlDotNet</name>
+      <version>16.3.0</version>
+      <description>YamlDotNet is a .NET library for YAML. YamlDotNet provides low level parsing and emitting of YAML as well as a high level object model similar to XmlDocument. A serialization library is also included that allows to read and write objects from and to YAML streams.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="SHA-512">F102FB418C3AFE5EC0CC5D0336B9AC6517AF6F30603AB5F925A7B3622544C419BB935D1E55901147FFF5A113874E55491534D5553411FB4EA198E6550C0421DF</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) Antoine Aubry and contributors</copyright>
+      <purl>pkg:nuget/YamlDotNet@16.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/aaubry/YamlDotNet/wiki</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/aaubry/YamlDotNet</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="DoYouTrustYourNuGetPackages@0.0.0">
+      <dependency ref="pkg:nuget/Aspire.Dashboard.Sdk.win-x64@9.5.1" />
+      <dependency ref="pkg:nuget/Aspire.Hosting.AppHost@9.5.1" />
+      <dependency ref="pkg:nuget/Aspire.Hosting.Orchestration.win-x64@9.5.1" />
+      <dependency ref="pkg:nuget/DoYouTrustYourNuGetPackages.CodeTransformation.Package@1.0.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Aspire.Dashboard.Sdk.win-x64@9.5.1" />
+    <dependency ref="pkg:nuget/Aspire.Hosting.AppHost@9.5.1">
+      <dependency ref="pkg:nuget/AspNetCore.HealthChecks.Uris@9.0.0" />
+      <dependency ref="pkg:nuget/Aspire.Hosting@9.5.1" />
+      <dependency ref="pkg:nuget/Google.Protobuf@3.32.0" />
+      <dependency ref="pkg:nuget/Grpc.AspNetCore@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Net.ClientFactory@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Tools@2.72.0" />
+      <dependency ref="pkg:nuget/Humanizer.Core@2.14.1" />
+      <dependency ref="pkg:nuget/JsonPatch.Net@3.3.0" />
+      <dependency ref="pkg:nuget/KubernetesClient@17.0.14" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+      <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
+      <dependency ref="pkg:nuget/Polly.Core@8.6.3" />
+      <dependency ref="pkg:nuget/Semver@3.0.0" />
+      <dependency ref="pkg:nuget/StreamJsonRpc@2.22.11" />
+      <dependency ref="pkg:nuget/System.IO.Hashing@9.0.8" />
+    </dependency>
+    <dependency ref="pkg:nuget/Aspire.Hosting.Orchestration.win-x64@9.5.1" />
+    <dependency ref="pkg:nuget/Aspire.Hosting@9.5.1">
+      <dependency ref="pkg:nuget/AspNetCore.HealthChecks.Uris@9.0.0" />
+      <dependency ref="pkg:nuget/Google.Protobuf@3.32.0" />
+      <dependency ref="pkg:nuget/Grpc.AspNetCore@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Net.ClientFactory@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Tools@2.72.0" />
+      <dependency ref="pkg:nuget/Humanizer.Core@2.14.1" />
+      <dependency ref="pkg:nuget/JsonPatch.Net@3.3.0" />
+      <dependency ref="pkg:nuget/KubernetesClient@17.0.14" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+      <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
+      <dependency ref="pkg:nuget/Polly.Core@8.6.3" />
+      <dependency ref="pkg:nuget/Semver@3.0.0" />
+      <dependency ref="pkg:nuget/StreamJsonRpc@2.22.11" />
+      <dependency ref="pkg:nuget/System.IO.Hashing@9.0.8" />
+    </dependency>
+    <dependency ref="pkg:nuget/AspNetCore.HealthChecks.Uris@9.0.0">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/DoYouTrustYourNuGetPackages.CodeTransformation.Package@1.0.0" />
+    <dependency ref="pkg:nuget/Fractions@7.3.0" />
+    <dependency ref="pkg:nuget/Google.Protobuf@3.32.0" />
+    <dependency ref="pkg:nuget/Grpc.AspNetCore.Server.ClientFactory@2.71.0">
+      <dependency ref="pkg:nuget/Grpc.AspNetCore.Server@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Net.ClientFactory@2.71.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.AspNetCore.Server@2.71.0">
+      <dependency ref="pkg:nuget/Grpc.Net.Common@2.71.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.AspNetCore@2.71.0">
+      <dependency ref="pkg:nuget/Google.Protobuf@3.32.0" />
+      <dependency ref="pkg:nuget/Grpc.AspNetCore.Server.ClientFactory@2.71.0" />
+      <dependency ref="pkg:nuget/Grpc.Tools@2.72.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.Core.Api@2.71.0" />
+    <dependency ref="pkg:nuget/Grpc.Net.Client@2.71.0">
+      <dependency ref="pkg:nuget/Grpc.Net.Common@2.71.0" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.Net.ClientFactory@2.71.0">
+      <dependency ref="pkg:nuget/Grpc.Net.Client@2.71.0" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.Net.Common@2.71.0">
+      <dependency ref="pkg:nuget/Grpc.Core.Api@2.71.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Grpc.Tools@2.72.0" />
+    <dependency ref="pkg:nuget/Humanizer.Core@2.14.1" />
+    <dependency ref="pkg:nuget/Json.More.Net@2.1.0" />
+    <dependency ref="pkg:nuget/JsonPatch.Net@3.3.0">
+      <dependency ref="pkg:nuget/JsonPointer.Net@5.2.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/JsonPointer.Net@5.2.0">
+      <dependency ref="pkg:nuget/Humanizer.Core@2.14.1" />
+      <dependency ref="pkg:nuget/Json.More.Net@2.1.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/KubernetesClient@17.0.14">
+      <dependency ref="pkg:nuget/Fractions@7.3.0" />
+      <dependency ref="pkg:nuget/YamlDotNet@16.3.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/MessagePack.Annotations@2.5.192" />
+    <dependency ref="pkg:nuget/MessagePack@2.5.192">
+      <dependency ref="pkg:nuget/MessagePack.Annotations@2.5.192" />
+      <dependency ref="pkg:nuget/Microsoft.NET.StringTools@17.6.3" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.CommandLine@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Json@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.UserSecrets@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Json@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+    <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions@9.0.9" />
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileSystemGlobbing@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.FileSystemGlobbing@9.0.9" />
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.CommandLine@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.EnvironmentVariables@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.FileExtensions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Json@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.UserSecrets@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.FileProviders.Physical@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Hosting.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Console@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Debug@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.EventLog@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.EventSource@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Http@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Diagnostics@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Configuration@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Console@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Configuration@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Debug@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.EventLog@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/System.Diagnostics.EventLog@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.EventSource@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Logging@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Logging.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Options.ConfigurationExtensions@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Configuration.Binder@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Options@9.0.9">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.DependencyInjection.Abstractions@9.0.9" />
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    <dependency ref="pkg:nuget/Microsoft.NET.StringTools@17.6.3" />
+    <dependency ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61">
+      <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
+    </dependency>
+    <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
+    <dependency ref="pkg:nuget/Nerdbank.Streams@2.12.87">
+      <dependency ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61" />
+      <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
+      <dependency ref="pkg:nuget/System.IO.Pipelines@8.0.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
+    <dependency ref="pkg:nuget/Polly.Core@8.6.3" />
+    <dependency ref="pkg:nuget/Semver@3.0.0">
+      <dependency ref="pkg:nuget/Microsoft.Extensions.Primitives@9.0.9" />
+    </dependency>
+    <dependency ref="pkg:nuget/StreamJsonRpc@2.22.11">
+      <dependency ref="pkg:nuget/MessagePack@2.5.192" />
+      <dependency ref="pkg:nuget/Microsoft.VisualStudio.Threading.Only@17.13.61" />
+      <dependency ref="pkg:nuget/Microsoft.VisualStudio.Validation@17.8.8" />
+      <dependency ref="pkg:nuget/Nerdbank.Streams@2.12.87" />
+      <dependency ref="pkg:nuget/Newtonsoft.Json@13.0.3" />
+      <dependency ref="pkg:nuget/System.IO.Pipelines@8.0.0" />
+    </dependency>
+    <dependency ref="pkg:nuget/System.Diagnostics.EventLog@9.0.9" />
+    <dependency ref="pkg:nuget/System.IO.Hashing@9.0.8" />
+    <dependency ref="pkg:nuget/System.IO.Pipelines@8.0.0" />
+    <dependency ref="pkg:nuget/YamlDotNet@16.3.0" />
+  </dependencies>
+</bom>
